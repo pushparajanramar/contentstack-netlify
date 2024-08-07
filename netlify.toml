@@ -1,0 +1,18 @@
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[build]
+  publish = ".next"
+  command = "npm run build"
+
+[context.production.environment]
+CONTENTSTACK_API_KEY = "blta0eb77f9f78f5f6a"
+CONTENTSTACK_DELIVERY_TOKEN = "cs379056928b43acb15a040464en"
+CONTENTSTACK_ENVIRONMENT = "development"
+CONTENTSTACK_BRANCH =  "main"
+
+SITE_URL = "https://pot1-demo.netlify.app/"
+NEXT_PUBLIC_CONTENTSTACK_API_KEY = "true"
+CONTENTSTACK_API_HOST =  "api.contentstack.io"
+CONTENTSTACK_MANAGEMENT_TOKEN = "cs33d34f22eedd761650126895"
+CONTENTSTACK_APP_HOST = "app.contentstack.com"
